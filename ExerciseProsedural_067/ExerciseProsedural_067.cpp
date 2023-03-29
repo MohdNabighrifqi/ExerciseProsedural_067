@@ -11,3 +11,10 @@ string status1(double rata) {
     else
         return "ditolak";
 }
+
+string status2(double rata, double nilM) {
+    if (rata >= 70 || nilM >= 80)
+        return "diterima";
+    else
+        return "ditolak";
+}
